@@ -1,0 +1,25 @@
+body {
+    background-image: url('/images/cloud_atlas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    color: white; 
+  }
+.machina {
+    margin-left: 50px;   
+    transform: translate(800px, 10px);
+    width: 250px;
+  }
+.glitch {
+  width: 200px;
+  transform: translate(150px, 40px);
+  transition: opacity 0.3s ease;
+  cursor: pointer; 
+}
+
+.glitch:hover {
+  opacity: 0.8;  
+}
