@@ -19,7 +19,13 @@ body {
   transition: opacity 0.3s ease;
   cursor: pointer; 
 }
+.ghost{
+  width: 300px;
+  transform: translate(500px, 250px);
+  transition: opacity 0.3s ease;
+  cursor: pointer; 
+}
 
-.glitch:hover {
+.glitch:hover, .ghost:hover, .machina:hover {
   opacity: 0.8;  
 }
