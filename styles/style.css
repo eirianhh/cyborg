@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-body {
+body{
     background-image: url('../images/cloud_atlas.jpg');
     background-size: cover;
     background-position: center;
@@ -9,6 +9,46 @@ body {
     font-family: sans-serif;
     color: white; 
   }
+  body.intro-page {
+    background-image: none;
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+  }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 10px;
+  }
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  font-size: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 0.5;
+}
+nav ul li a:hover {
+  color: blue;
+  transform: scale(1.05);
+}
 h1{
   font-family: 'Silkscreen', sans-serif;
   font-weight: 400;
@@ -49,7 +89,7 @@ h2{
   cursor: pointer;
 }
 
-.machina {
+figure.machina img {
   width: 400px;
   top: 50px;
   left: 50px;
@@ -86,7 +126,21 @@ h2{
   transform: rotate(5deg);
 }
 
-.togawa {
+figure.togawa {
+  position: absolute;
+  top: 50px;
+  left: 975px;
+  width: 200px;
+  margin: 0;
+}
+figure.machina{
+  position: absolute;
+  transform: rotate(2deg);
+  top: 50px;
+  left: 40px;
+  width: 200px;
+}
+figure.togawa img{
   width: 200px;
   top: 50px;
   left: 975px;
@@ -94,6 +148,23 @@ h2{
   border: 4px solid pink;
 }
 
+figure.togawa figcaption, figure.machina figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 5px 0;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.about {
+  width: 100px;
+  top: 50px;
+  left: 975px;
+}
 .ghost {
   width: 300px;
   top: 300px;
@@ -107,6 +178,27 @@ h2{
 .togawa:hover {
   opacity: 0.8;  
   transform: scale(1.05);
+}
+
+.intro-all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textbox{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.machina2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 footer {

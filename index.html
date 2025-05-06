@@ -7,26 +7,41 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    
-    <div class="header">
-    <h1>Techno-orientalism & the Asian Cyborg </h1> </div>
+    <main>
+      <header>
+        <h1> Techno-orientalism & the Asian Cyborg </h1>
+      </header>     
     
     <div class="home">
-    <img src="images/togawa.jpg" class = "togawa">
-    <figure class="image-container" style="top: 50px; left: 50px;">
-      <img src="images/ex_machina.gif" class="machina" alt="Machina">
-      <figcaption class="caption-overlay">Machina</figcaption>
+    <!-- <img src="images/togawa.jpg" class = "togawa"> -->
+    <a href="about.html" class="togawa-link">
+    <figure class="togawa"> <img src = "images/togawa.jpg" alt="Robotic Arm Togawa">
+      <figcaption> ABOUT </figcaption>
     </figure>
-    
+    </a>
+
+    <a href="intro.html" class="togawa-link">
+      <figure class="machina"> <img src = "images/ex_machina.gif" alt="Ex Machina">
+        <figcaption> INTRO </figcaption>
+      </figure>
+    </a>
+
     <!-- <img src="images/ex_machina.gif" class="machina"> -->
     <img src="images/glitch.gif" class ="glitch">
     <img src="images/ghost_shell.png" class="ghost">
   </div>
+  
+ 
   <h2> Speculative East Asias </h2>
-
+</main>
   <footer>
-    <p>Speculative East Asias | Eirian Huang </p>
+    <p>Speculative East Asias Sp 2025 | Eirian Huang </p>
   </footer>
 
   </body>
 </html>
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    document.getElementById('navbar').classList.toggle('hidden');
+  });
+</script>
