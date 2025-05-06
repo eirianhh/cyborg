@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 body {
-    /* background-image: url('../images/cloud_atlas.jpg'); */
-    background-color: black;
+    background-image: url('../images/cloud_atlas.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
     color: white; 
   }
+h1 {
+  font-family: 'Silkscreen', sans-serif;
+  color: white;
+}
 .machina {
     margin-left: 50px;   
     transform: translate(800px, 10px);
