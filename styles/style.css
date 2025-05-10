@@ -11,6 +11,12 @@ body{
     font-family: sans-serif;
     color: white; 
   }
+body.baddie-page{
+  background-image: url('../images/bliss.jpg');
+}
+.theory{
+  background-image: url('../images/yunying.jpg');
+}
 .index-bg {
   background-image: url('../images/cloud_atlas.jpg');
 }
@@ -49,7 +55,6 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: blue;
-  transform: scale(1.05);
 }
 h1{
   font-family: 'Jersey 10', sans-serif;
@@ -242,17 +247,44 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   color: black;
 }
 
-#BADDIE 
-.baddie {
-  display: block;
-  width: 5px;
+/* BADDIE STYLES */
+.pics{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
-
+.baddie {
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+}
+.character_ai_1 {
+  height: auto;
+  width: 40%;
+}
+.all{
+  padding-bottom: 10px;
+}
+.baddie_text{
+  font-family: 'Times New Roman', serif; 
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 20px;
+  max-width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: outset;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
 footer {
   text-align: center;
+  font-family: 'Times New Roman', serif; 
   padding: 2px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 
