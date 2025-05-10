@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 body{
     background-size: cover;
     background-position: center;
@@ -50,13 +52,13 @@ nav ul li a:hover {
   transform: scale(1.05);
 }
 h1{
-  font-family: 'Silkscreen', sans-serif;
+  font-family: 'Jersey 10', sans-serif;
   font-weight: 400;
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 68px;
   padding: 0;
-  font-style: italic;
+  font-style: oblique;
 }
 
 h2{
