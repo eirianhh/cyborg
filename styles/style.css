@@ -241,8 +241,12 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   align-items: flex-start;
 }
 .guy {
-  max-width: 250px;
+  max-width: 200px;
   margin-right: 15px;
+}
+.bender{
+  max-width: 250px;
+  align-items: left;
 }
 
 .textbox{
@@ -254,8 +258,29 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   max-width: 75%;
   margin-bottom: 20px;
   margin-right: 10px;
+  margin-top:15px;
   align-items: end;
   border-style: outset;
+  height: 100vh;  
+  overflow-y: auto;    
+}
+.textbox2{
+  font-family: 'Times New Roman', serif; 
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  max-width: 75%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top:15px;
+  align-items: end;
+  border-style: outset;   
+  line-height: 1.5;
+}
+.block {
+  margin-left: 2em;
 }
 
 .quote{
@@ -266,7 +291,7 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   display: block;
   margin: auto;
   /* margin-bottom: 20px; */
-  width: 400px;
+  width: 300px;
 }
 
 .about-text{
@@ -291,7 +316,7 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
 }
 .character_ai_1 {
   height: auto;
-  width: 40%;
+  width: 29%;
 }
 .all{
   padding-bottom: 10px;
@@ -309,6 +334,16 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   margin-left: auto;
   margin-right: auto;
   flex-grow: 1;
+}
+/* Theory */
+.soft_science_div{
+  margin-left: none;
+}
+.soft_science {
+  max-width: 40%;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 5px;
 }
 footer {
   text-align: center;
