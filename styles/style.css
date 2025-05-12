@@ -62,7 +62,7 @@ nav ul li a {
 nav ul li a:hover {
   color: blue;
 }
-li {
+ul li {
   list-style: none;
 }
 /* a:link {
@@ -102,6 +102,7 @@ h3{
   font-weight: bold;
   font-size: 24px;
 }
+
 .header{
   background:black;
 }
@@ -254,7 +255,12 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   max-width: 250px;
   align-items: left;
 }
-
+.how-to {
+  background-color: rgb(132, 0, 255);
+  margin-right: 15px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
 .textbox{
   font-family: 'Times New Roman', serif; 
   font-size: 18px;
@@ -320,11 +326,13 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   width: 41%;
   height: auto;
   object-fit: contain;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .character_ai_1 {
   margin-top: 10px;
   height: auto;
   width: 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .all{
   padding-bottom: 10px;
@@ -343,9 +351,45 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   margin-right: 50px; */
   flex-grow: 1;
 }
+button{
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+.button{
+  text-decoration: none;
+}
+.ad1{
+  display: flex;
+  align-items: center;
+}
+.ad {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width: 70%;
+  padding: 10px;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+.ad-img{
+  max-width: 220px;
+}
+.ad_head{
+  text-shadow: 2px 2px 5px rgb(243, 122, 122);
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
 .allchat{
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 0;
@@ -361,17 +405,20 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   margin-bottom: 10px;
   border-style: dotted;
   flex-grow: 1;
+  max-height: auto;
 }
 .chat2{
   font-family: 'Share Tech Mono', sans-serif; 
   font-size: 18px;
-  background-color: rgba(255, 255, 255, 0.608);
+  background-color: rgba(77, 245, 155, 0.717);
   color: rgb(0, 0, 0);
   padding: 20px;
   max-height: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-style: dotted;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: white;
   flex-grow: 1;
   overflow-y: auto; 
 }
@@ -379,18 +426,35 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   font-family: 'Share Tech Mono', sans-serif; 
   font-size: 18px;
   background-color: rgb(29, 60, 198);
-  color: rgb(241, 229, 195);
-  padding: 20px;
-  max-height: 700px;
+  color: rgb(252, 118, 228);
+  max-height: 518px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  align-self: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
   border-style: solid;
   border-width: 4px;
   flex-grow: 1;
   overflow-y: auto; 
+  scrollbar-width: thin;
+}
+.stickyh3{
+  padding: 10px;
+  background-color: rgb(225, 228, 240);
+  position: sticky;
+  top: 0;
+  text-align: center;
+  align-items: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
 }
 right {
   max-width: 50%;
+  padding: 0;
 }
 .my-input{
   color: rgb(255, 255, 255);
