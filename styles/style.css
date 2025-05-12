@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 body{
     background-size: cover;
@@ -95,7 +96,12 @@ h2{
   font-size: 30px;
   padding-top: 0%;
 }
-
+h3{
+  font-family: 'Share Tech Mono', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
 .header{
   background:black;
 }
@@ -307,16 +313,18 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
 .pics{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 .baddie {
-  width: 40%;
+  margin-top: 10px;
+  width: 41%;
   height: auto;
   object-fit: contain;
 }
 .character_ai_1 {
+  margin-top: 10px;
   height: auto;
-  width: 29%;
+  width: 30%;
 }
 .all{
   padding-bottom: 10px;
@@ -324,16 +332,70 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
 .baddie_text{
   font-family: 'Times New Roman', serif; 
   font-size: 18px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 208, 239);
   color: black;
   padding: 20px;
-  max-width: 60%;
+  /* max-width: 30%; */
   margin-top: 10px;
   margin-bottom: 10px;
-  border-style: outset;
-  margin-left: auto;
-  margin-right: auto;
+  /* border-style: outset; */
+  /* margin-left: 50px;
+  margin-right: 50px; */
   flex-grow: 1;
+}
+.allchat{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.AIchat{
+  font-family: 'Share Tech Mono', sans-serif; 
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.816);
+  color: rgb(175, 119, 247);
+  padding: 20px;
+  max-width: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: dotted;
+  flex-grow: 1;
+}
+.chat2{
+  font-family: 'Share Tech Mono', sans-serif; 
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.608);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  max-height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: dotted;
+  flex-grow: 1;
+  overflow-y: auto; 
+}
+.chat3{
+  font-family: 'Share Tech Mono', sans-serif; 
+  font-size: 18px;
+  background-color: rgb(29, 60, 198);
+  color: rgb(241, 229, 195);
+  padding: 20px;
+  max-height: 700px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 4px;
+  flex-grow: 1;
+  overflow-y: auto; 
+}
+right {
+  max-width: 50%;
+}
+.my-input{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: oblique;
 }
 /* Theory */
 .soft_science_div{
