@@ -98,7 +98,7 @@ h2{
 }
 h3{
   font-family: 'Share Tech Mono', sans-serif;
-  color: black;
+  /* color: black; */
   font-weight: bold;
   font-size: 24px;
 }
@@ -414,9 +414,27 @@ button{
   color: rgb(0, 0, 0);
   padding: 20px;
   max-height: 300px;
+  max-width: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-style: dashed;
+  border-width: 5px;
+  border-color: white;
+  flex-grow: 1;
+  overflow-y: auto; 
+}
+.chat4{
+  font-family: 'Share Tech Mono', sans-serif; 
+  font-size: 18px;
+  background-color: rgba(77, 200, 245, 0.717);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  height: 300px;
+  max-width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: dashed;
+  border-left: none;
   border-width: 5px;
   border-color: white;
   flex-grow: 1;
@@ -427,7 +445,7 @@ button{
   font-size: 18px;
   background-color: rgb(29, 60, 198);
   color: rgb(252, 118, 228);
-  max-height: 518px;
+  max-height: 500px;
   margin-top: 10px;
   align-self: flex-end;
   padding-left: 20px;
@@ -441,20 +459,17 @@ button{
   scrollbar-width: thin;
 }
 .stickyh3{
-  padding: 10px;
-  background-color: rgb(225, 228, 240);
-  position: sticky;
   top: 0;
-  text-align: center;
   align-items: center;
   max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 40px;
 }
 right {
   max-width: 50%;
   padding: 0;
+}
+.right-top{
+  display: flex;
+  align-items: flex-start;
 }
 .my-input{
   color: rgb(255, 255, 255);
