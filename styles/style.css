@@ -278,14 +278,14 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
 }
 .textbox2{
   font-family: 'Times New Roman', serif; 
-  font-size: 18px;
+  font-size: 16px;
   background-color: white;
   color: black;
   padding: 20px;
-  max-width: 75%;
+  max-width: 65%;
   margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top:15px;
   align-items: end;
   border-style: outset;   
@@ -414,7 +414,7 @@ button{
   color: rgb(0, 0, 0);
   padding: 20px;
   max-height: 300px;
-  max-width: 400px;
+  width: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-style: dashed;
@@ -430,7 +430,7 @@ button{
   color: rgb(0, 0, 0);
   padding: 20px;
   height: 300px;
-  max-width: 400px;
+  width: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-style: dashed;
