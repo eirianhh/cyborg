@@ -407,7 +407,8 @@ button{
   margin-bottom: 10px;
   border-style: dotted;
   flex-grow: 1;
-  max-height: auto;
+  max-height: 150vh;
+  overflow-y: auto;
 }
 .chat2{
   font-family: 'Share Tech Mono', sans-serif; 
