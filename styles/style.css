@@ -446,7 +446,7 @@ button{
   font-size: 18px;
   background-color: rgb(29, 60, 198);
   color: rgb(252, 118, 228);
-  max-height: 457px;
+  max-height: 400px;
   align-self: flex-end;
   padding-left: 20px;
   padding-right: 20px;
@@ -458,6 +458,22 @@ button{
   overflow-y: auto; 
   scrollbar-width: thin;
 }
+.chat3-5{
+    font-family: 'Share Tech Mono', sans-serif; 
+    font-size: 18px;
+    background-color: rgb(255, 12, 138);
+    color: white;
+    max-height: 457px;
+    align-self: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 4px;
+    flex-grow: 1;
+    overflow-y: auto; 
+    scrollbar-width: thin;
+  }
 .stickyh3{
   top: 0;
   align-items: center;
