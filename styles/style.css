@@ -285,8 +285,10 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   font-size: 16px;
   background-color: white;
   color: black;
-  padding: 20px;
-  max-width: 65%;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 50%;
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -294,6 +296,8 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   align-items: end;
   border-style: outset;   
   line-height: 1.5;
+  overflow-y: auto;  
+  height: 100vh;
 }
 
 .block {
@@ -538,6 +542,13 @@ right {
   padding: 20px;
   max-height: 400px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.quote2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px #272426;
 }
 footer {
   text-align: center;
