@@ -258,8 +258,12 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
 .how-to {
   background-color: rgb(132, 0, 255);
   margin-right: 15px;
-  padding: 2px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
   margin-bottom: 15px;
+  font-family: 'Times New Roman', serif; 
 }
 .textbox{
   font-family: 'Times New Roman', serif; 
@@ -273,7 +277,7 @@ figure.togawa figcaption, figure.machina figcaption, figure.glitch figcaption, f
   margin-top:15px;
   align-items: end;
   border-style: outset;
-  height: 100vh;  
+  height: 120vh;  
   overflow-y: auto;    
 }
 .textbox2{
