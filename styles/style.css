@@ -450,7 +450,7 @@ button{
   font-size: 18px;
   background-color: rgb(29, 60, 198);
   color: rgb(252, 118, 228);
-  max-height: 343px;
+  max-height: 340px;
   align-self: flex-end;
   padding-left: 20px;
   padding-right: 20px;
@@ -464,10 +464,10 @@ button{
 }
 .chat3-5{
     font-family: 'Share Tech Mono', sans-serif; 
-    font-size: 18px;
+    font-size: 16px;
     background-color: rgb(255, 12, 138);
     color: white;
-    max-height: 457px;
+    height: 200px;
     align-self: flex-end;
     padding-left: 20px;
     padding-right: 20px;
